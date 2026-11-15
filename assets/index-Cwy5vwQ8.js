@@ -3334,18 +3334,26 @@ texCoord = mod(texCoord, 1.0) * outFrame.zw + outFrame.xy;`},disable:!!e}}},8378
         <rect x="56" y="150" width="244" height="330" rx="14" fill="#8a5a2b"/>
         <rect x="70" y="162" width="216" height="304" rx="10" fill="#f4efe6"/>
         <rect x="96" y="176" width="160" height="72" rx="26" fill="#ffffff"/>
-        <path d="M${s-40} ${c-6} Q${s-44} ${c+40} ${s-26} ${c+44} M${s+40} ${c-6} Q${s+44} ${c+40} ${s+26} ${c+44}" fill="none" stroke="#7a4a25" stroke-width="16"/>
-        <circle cx="${s-26}" cy="${c+46}" r="6" fill="#f2c14e"/><circle cx="${s+26}" cy="${c+46}" r="6" fill="#f2c14e"/>
-        <circle cx="${s}" cy="${c}" r="34" fill="#f6c7a1"/>
-        <path d="M${s-34} ${c-6} Q${s-30} ${c-36} ${s} ${c-38} Q${s+30} ${c-36} ${s+34} ${c-6} Q${s+10} ${c-22} ${s-34} ${c-6} Z" fill="#7a4a25"/>
-        <path d="M${s-18} ${c+2} q6 6 12 0 M${s+6} ${c+2} q6 6 12 0" fill="none" stroke-width="3"/>
-        <path d="M${s-8} ${c+16} q8 6 16 0" fill="none" stroke-width="3"/>
-        <circle cx="${s-22}" cy="${c+12}" r="5" fill="#f08a8a" stroke="none" opacity="0.6"/><circle cx="${s+22}" cy="${c+12}" r="5" fill="#f08a8a" stroke="none" opacity="0.6"/>
+        <path d="M${s-36} ${c+4} L${s-50} ${c-10} L${s-38} ${c-22} L${s-46} ${c-40} L${s-22} ${c-40} L${s-14} ${c-56} L${s+2} ${c-44} L${s+18} ${c-56} L${s+24} ${c-40} L${s+46} ${c-40} L${s+38} ${c-22} L${s+50} ${c-10} L${s+36} ${c+4} Z" fill="#7a4a25"/>
+        <path d="M${s-46} ${c-40} L${s-40} ${c-34} M${s-14} ${c-56} L${s-12} ${c-48} M${s+18} ${c-56} L${s+16} ${c-48} M${s+46} ${c-40} L${s+40} ${c-34}" stroke="#f2c14e" stroke-width="7"/>
+        <circle cx="${s}" cy="${c}" r="32" fill="#f6c7a1"/>
+        <path d="M${s-31} ${c-6} L${s-26} ${c-30} Q${s} ${c-40} ${s+26} ${c-30} L${s+31} ${c-6} L${s+20} ${c-18} L${s+12} ${c-8} L${s+2} ${c-20} L${s-8} ${c-10} L${s-18} ${c-20} Z" fill="#7a4a25"/>
+        <path d="M${s-21} ${c-3} L${s-9} ${c-5} M${s+9} ${c-5} L${s+21} ${c-3}" stroke-width="3.5"/>
+        <path d="M${s-20} ${c+3} q6 5 11 0 M${s+9} ${c+3} q6 5 11 0" fill="none" stroke-width="3"/>
+        <path d="M${s-2} ${c+6} q3 5 5 1" fill="none" stroke-width="2.5"/>
+        <ellipse cx="${s}" cy="${c+19}" rx="5" ry="6" fill="#7a2a1a"/>
         <path d="M70 262 H286 V454 Q286 466 274 466 H82 Q70 466 70 454 Z" fill="#c8312f"/>
         <path d="M70 262 H286 V286 H70 Z" fill="#e8e2d0"/>
         ${[`#e63946`,`#f4a261`,`#ffd23f`,`#52b788`,`#4895ef`,`#7b2cbf`].map((e,t)=>`<rect x="${70+t*36}" y="400" width="36" height="14" fill="${e}" stroke="none"/>`).join(``)}
         <path d="M112 300 Q178 330 244 300" fill="none" stroke="#9e2224" stroke-width="3"/>
         <circle cx="64" cy="156" r="12" fill="#e0b04a"/><circle cx="292" cy="156" r="12" fill="#e0b04a"/>
+        <path d="M110 290 Q118 278 132 284 L150 296 L136 306 Z M246 290 Q238 278 224 284 L206 296 L220 306 Z" fill="#c8312f"/>
+        <circle cx="144" cy="300" r="10" fill="#f6c7a1"/><circle cx="212" cy="300" r="10" fill="#f6c7a1"/>
+        <g transform="rotate(-18 64 156)">
+            <path d="M44 150 Q44 126 64 126 Q84 126 84 150 Z" fill="#6e4520"/>
+            <path d="M45 144 L83 144 L84 150 L44 150 Z" fill="#3a2414"/>
+            <ellipse cx="64" cy="152" rx="40" ry="10" fill="#8a5a2b"/>
+        </g>
 
         <ellipse cx="495" cy="268" rx="82" ry="12" fill="#000" opacity="0.2" stroke="none"/>
         <rect x="420" y="168" width="150" height="92" rx="8" fill="#a8743f"/>
